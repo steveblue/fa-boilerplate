@@ -50,9 +50,9 @@
 
 //Loader Class
 .loading {
-  @include loader-icon(100px, 100px);
-  position: relative;
-  margin: 0 auto;
-  transform-origin: 83%, 50%;
-  @include animation(rotating 1.5s linear infinite);
+ // @include loader-icon(100px, 100px);
+ // position: relative;
+ // margin: 0 auto;
+ // transform-origin: 83%, 50%;
+ // @include animation(rotating 1.5s linear infinite);
 }
