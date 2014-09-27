@@ -4,13 +4,11 @@
   define([
       //providers
       'providers/route-manager',
-      'providers/translate-provider',
       //services
-      'services/mh-states'
+      'services/states'
       ],
     function (
       RouteManager,
-      TranslateProvider,
       mhStatesService
     ){
       var app, appName = 'NewApp';
@@ -19,13 +17,11 @@
               .module(appName, [
                 'ui.router',
                 'famous.angular',
-                'pascalprecht.translate',
                 'ngSanitize',
                 'angulartics',
                 'angulartics.segment.io'
               ])
               .config( RouteManager )
-              .config( TranslateProvider )
               .service('States', mhStatesService );
 
 

@@ -12,8 +12,8 @@
       var moduleName = "NewApp.New";
 
       angular.module( moduleName, [] )
-        .directive( "mhNewTag", NewDirective )
-        .controller( "mhNewController", NewController );
+        .directive( "newTag", NewDirective )
+        .controller( "newController", NewController );
 
       return moduleName;
     }
