@@ -16,8 +16,23 @@
           $stateProvider
             .state('index', {
               url: "/",
-              templateUrl: "views/default.html"//,
-              //controller  : "MainController"
+              templateUrl: "views/default.html",
+              controller  : function($scope, $famous){
+                var Engine = $famous['famous/core/Engine'];
+                var EventHandler = $famous['famous/core/EventHandler'];
+                var Transitionable = $famous['famous/transitions/Transitionable'];
+                var Timer = $famous['famous/utilities/Timer'];
+
+                $scope.scrollHandler = new EventHandler();
+                Engine.pipe($scope.scrollHandler);
+
+                $scope.scrollOptions = {
+                  paginated: false,
+                  speedLimit: 2,
+                  direction: 1,
+                };
+
+              }
             });
           // end states
     };

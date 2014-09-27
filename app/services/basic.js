@@ -7,10 +7,10 @@
     define( [], function ()
     {
            var Basic = function(){
-             
-             
+
+
              this.title = 'Service Delivered This Title';
-             
+
 
            };
 

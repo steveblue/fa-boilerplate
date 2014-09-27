@@ -5,8 +5,8 @@
     define([
 
         ],
-        function ( 
-        
+        function (
+
                  )
         {
                 /**
@@ -25,7 +25,7 @@
                 })
                 .preferredLanguage('en_US');
             };
-              
+
 
             return ["$translateProvider", TranslateProvider ];
         });
