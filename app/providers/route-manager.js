@@ -30,6 +30,7 @@
                   paginated: false,
                   speedLimit: 2,
                   direction: 1,
+                  clipSize: window.innerHeight
                 };
 
               }
