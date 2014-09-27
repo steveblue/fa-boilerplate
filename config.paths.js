@@ -13,7 +13,6 @@ module.exports = {
 // Lib Files
   lib: {
     src:[
-      'app/hound/hound-js-api/dist/hound-api.js',
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
       'bower_components/angular-translate-loader-url/angular-translate-loader-url.js',
@@ -32,7 +31,6 @@ module.exports = {
 
     ],
     min:[
-      'app/hound/hound-js-api/dist/hound-api.min.js',
       'bower_components/angular-ui-router/release/angular-ui-router.min.js',
       'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
       'bower_components/angular-translate-loader-url/angular-translate-loader-url.min.js',

@@ -2,7 +2,7 @@
   "name": "WebApp",
   "version": "0.0.1",
   "private": true,
-  "description": "The HTML5 web app front end for MediaHound.com",
+  "description": "The HTML5 web app front end for Famous/Angular",
   "keywords": "",
   "homepage": "",
   "bugs": {
@@ -11,7 +11,7 @@
   },
   "license": "../license",
   "contributors": [
-    "Steve Belocarich <steve@mediahound.com>"
+    "Steve Belocarich <steveblue@gmail.com>"
   ],
   "repository": {
     "type": "git",
