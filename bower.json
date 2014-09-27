@@ -1,0 +1,27 @@
+{
+  "name": "MediaHound-WebApp",
+  "version": "0.0.0",
+  "license": "http://www.mediahound.com/license",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "=2.1.14",
+    "angular": "=1.2.22",
+    "lodash": "=2.4.1",
+    "headjs": "=1.0.3",
+    "resjs": "=1.25.1",
+    "es6-promise": "=1.0.0",
+    "angular-translate": "=2.2.0",
+    "angular-translate-loader-static-files": "=2.2.0",
+    "angular-translate-loader-url": "=2.2.0",
+    "angular-ui-router": "=0.2.10",
+    "famous-angular": "=0.4.0",
+    "angular-sanitize": "=1.2.22"
+  }
+}

@@ -1,0 +1,42 @@
+//-----------------------------------------
+//  COLORS
+//-----------------------------------------
+
+//-----------------------------------------
+//  Main Brand Colors
+//-----------------------------------------
+
+// MediaHound Brand Blue
+$mh-blue: #3999d5;
+
+// MediaHound Dark Gray (do NOT use black)
+$mh-dark-gray: #ABABAB;
+
+// MediaHound Medium Gray
+$mh-medium-gray: #d4d4d4;
+
+// MediaHound Light Gray
+$mh-light-gray: #e4e4e4;
+
+// MediaHound White
+$mh-white: #ffffff;
+
+//MediaHound Red
+$mh-red:  #E6685C;
+
+
+//-----------------------------------------
+//  Box Shadow
+//-----------------------------------------
+
+@mixin inset-box-shadow($horizontal: -12px, $vertical: 0px, $blur: 10px, $color: $mh-medium-gray) {
+  -webkit-box-shadow: inset $horizontal $vertical $blur $color;
+  -moz-box-shadow: inset $horizontal $vertical $blur $color;
+  box-shadow: inset $horizontal $vertical $blur $color;
+}
+
+@mixin box-shadow($horizontal, $vertical, $blur, $color) {
+  -webkit-box-shadow: $horizontal $vertical $blur $color;
+  -moz-box-shadow: $horizontal $vertical $blur $color;
+  box-shadow: $horizontal $vertical $blur $color;
+}

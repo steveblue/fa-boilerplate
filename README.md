@@ -1,4 +1,1 @@
-fa-boilerplate
-==============
-
-Famous / Angular Boilerplate
+README
