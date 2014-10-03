@@ -19,7 +19,6 @@ npm install -g bower
 npm install -g node-sass
 npm install -g node-bourbon
 npm install -g gulp
-
 ```
 
 ## Github ##
@@ -30,7 +29,6 @@ Use the following command to clone the repo, replacing [username] with your BitB
 
 ```
 git clone https://github.com/steveblue/fa-boilerplate.git
-
 ```
 
 
@@ -40,7 +38,6 @@ In the root folder of the repo, run the package installer for the project. This 
 
 ```
 npm install
-
 ```
 
 In the project root directory, this command will set up node_modules folder and various dev dependencies. If you do not have ownership rights on the folders that will be created, npm or bower could throw an error. If bower fails to run, `bower install`.
