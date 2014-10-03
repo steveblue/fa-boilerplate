@@ -14,8 +14,6 @@ You should install these frameworks at a system level before cloning the repo. H
 Here are the shell commands so you don't have to look them up: (npm install commands may require sudo)
 
 ```
-#!unix
-
 brew install node
 npm install -g bower
 npm install -g node-sass
@@ -31,8 +29,6 @@ Clone the repo into a local folder.
 Use the following command to clone the repo, replacing [username] with your BitBucket username.
 
 ```
-#!unix
-
 git clone https://github.com/steveblue/fa-boilerplate.git
 
 ```
@@ -43,8 +39,6 @@ git clone https://github.com/steveblue/fa-boilerplate.git
 In the root folder of the repo, run the package installer for the project. This will initiate a bower install of all necessary libraries.
 
 ```
-#!unix
-
 npm install
 
 ```
