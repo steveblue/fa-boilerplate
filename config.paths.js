@@ -19,7 +19,7 @@ module.exports = {
       'bower_components/angular-translate/angular-translate.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-sanitize/angular-sanitize.js',
-      'bower_components/famous/famous-global.js',
+      'bower_components/famous/dist/famous-global.js',
       'bower_components/famous-angular/dist/famous-angular.js',
       'bower_components/headjs/dist/1.0.0/head.load.js',
       'bower_components/lodash/dist/lodash.js',
@@ -39,7 +39,7 @@ module.exports = {
       'bower_components/angular/angular.min.js.map',
       'bower_components/angular-sanitize/angular-sanitize.min.js',
       'bower_components/angular-sanitize/angular-sanitize.min.map',
-      'bower_components/famous/famous-global.js', // angular didn't like loading the mins for famous and famous-angular
+      'bower_components/famous/dist/famous-global.js', // angular didn't like loading the mins for famous and famous-angular
       'bower_components/famous-angular/dist/famous-angular.js',
       'bower_components/headjs/dist/1.0.0/head.load.min.js',
       'bower_components/lodash/dist/lodash.min.js',
