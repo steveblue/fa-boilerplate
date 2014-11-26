@@ -6,8 +6,6 @@ var respond = new res([{"state": "portrait","breakpoint": 320,"cols": 4,"margin"
                        {"state": "small","breakpoint": 1024,"cols": 12,"margin": 40,"gutter": 20},
                        {"state": "medium","breakpoint": 1366,"cols": 16,"margin": 80,"gutter": 20},
                        {"state": "large","breakpoint": 1920,"cols": 16,"margin": 80,"gutter": 20}]);
-
-
 (function( define ) {
     "use strict";
 
