@@ -14,11 +14,6 @@
       'lib/angular-sanitize.js',
       'lib/famous-global.js',
       'lib/famous-angular.js',
-      'lib/angular-translate.js',
-      'lib/angular-translate-loader-url.js',
-      'lib/angular-translate-loader-static-files.js',
-      'lib/angulartics.js',
-      'lib/angulartics-segmentio.js',
       'lib/res.js',
       'lib/require.js'
     )
@@ -41,9 +36,11 @@
 
       require( [ "app" ], function( app ){
 
-        // Application has bootstrapped and started...
+        // Application has bootstrapped... needed for Firefox
         if( angular.resumeBootstrap && respond.browser === 'firefox' ){
+
           angular.resumeBootstrap();
+
         }
 
       });
