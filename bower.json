@@ -15,9 +15,6 @@
     "headjs": "=1.0.3",
     "resjs": "=1.25.1",
     "es6-promise": "=1.0.0",
-    "angular-translate": "=2.2.0",
-    "angular-translate-loader-static-files": "=2.2.0",
-    "angular-translate-loader-url": "=2.2.0",
     "angular-ui-router": "=0.2.13",
     "famous-angular": "=0.5.2",
     "angular-sanitize": "=1.2.22"

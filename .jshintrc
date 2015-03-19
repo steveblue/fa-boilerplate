@@ -83,10 +83,8 @@
     // Custom Globals
     "globals"       : {},        // additional predefined global variables
 
-    "predef"        : [ "define", 
-                        "require", 
-                        "angular",
-                        "Enum",
-                        "MHObject"
+    "predef"        : [ "define",
+                        "require",
+                        "angular"
                       ]
 }

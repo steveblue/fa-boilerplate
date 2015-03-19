@@ -10,7 +10,7 @@
       ],
     function (
       RouteManager,
-      mhStatesService
+      StatesService
     ){
 
       var app, appName = 'NewApp';
@@ -22,7 +22,7 @@
                 'ngSanitize'
               ])
               .config( RouteManager )
-              .service('States', mhStatesService );
+              .service('States', StatesService );
 
       angular.bootstrap( document.getElementsByTagName("html")[0], [ appName ]);
 
