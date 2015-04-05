@@ -23,12 +23,13 @@ npm install -g gulp
 
 ## Github ##
 
+Fork the repo.
 Clone the repo into a local folder. 
 
-Use the following command to clone the repo, replacing [username] with your BitBucket username.
+Use the following command to clone the repo, replacing [username] with your Github username.
 
 ```
-git clone https://github.com/steveblue/fa-boilerplate.git
+git clone https://github.com/[username]/fa-boilerplate.git
 ```
 
 
